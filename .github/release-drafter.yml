@@ -1,5 +1,7 @@
 name-template: 'Version $RESOLVED_VERSION 🌈'
 tag-template: 'v$RESOLVED_VERSION'
+exclude-labels:
+  - 'ignore-for-release'
 categories:
   - title: '🚀 Features'
     labels:
